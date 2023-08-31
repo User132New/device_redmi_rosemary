@@ -1,5 +1,5 @@
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/aosp_rosemary.mk
+	$(LOCAL_DIR)/awaken_rosemary.mk
 
 COMMON_LUNCH_CHOICES := \
-    $(foreach variant, user userdebug eng, aosp_rosemary-$(variant))
+    $(foreach variant, user userdebug eng, awaken_rosemary-$(variant))
