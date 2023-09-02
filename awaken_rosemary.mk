@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-# Common AWAKEN base
+# Common PE base
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
@@ -27,7 +27,7 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := true
 TARGET_SUPPORTS_CALL_RECORDING := true
-TARGET_USES_AWAKEN_RECOVERY := true
+TARGET_USES_AOSP_RECOVERY := true
 
 # Kasumi's GCam GO
 $(call inherit-product-if-exists, $(GCGOP_VENDOR_DIR)/config.mk)
