@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device tree
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Common PEconfigs
+# Common PE configs
 $(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := true
